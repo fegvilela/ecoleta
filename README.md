@@ -1,7 +1,19 @@
+=======
+# ecoleta
+App para mapeamento de locais de coleta seletiva
+
+=======
+## O que tem nesse app?
+
 
 O Ecoleta possui dois módulos:
 1. App Web - cadastro das iniciativas que fazem coleta seletiva, como por exemplo de pilhas/baterias.
 2. App Mobile - visualização do local de cada iniciativa e filtros por tipo de coleta realizada
+
+
+
+=======
+# To run this project etc.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -48,7 +60,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# ecoleta
-App para mapeamento de locais de coleta seletiva
 
