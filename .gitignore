@@ -47,6 +47,7 @@ typings/
 
 #lock files
 */package-lock.json
+*.lock
 
 # TypeScript cache
 *.tsbuildinfo
@@ -122,3 +123,7 @@ test/**/*.d.ts
 .tscache/
 tmp/
 espowered/
+
+
+.DS_Store
+*/.DS_Store
