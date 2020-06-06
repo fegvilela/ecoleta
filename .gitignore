@@ -127,3 +127,7 @@ espowered/
 
 .DS_Store
 */.DS_Store
+
+
+# database
+*.sqlite
