@@ -9,7 +9,7 @@
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fernanda Vilela",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

@@ -4,7 +4,6 @@ import knex from '../database/connection'
 class PointsController {
 
   async index(request: Request, response: Response) {
-    // cidade, uf, items (Query Params)
     const { city, uf, items } = request.query
 
     const parsedItems = String(items)
@@ -31,10 +30,6 @@ class PointsController {
       return response.status(400).json({ message: 'point not found'})
     }
 
-    // retorna todos items que estão relacionados ao item com {id}
-    // SELECT * FFROM items
-    //  JOIN point_items ON item.id = point_items.item_id
-    // WHERE point_items.point_id = {id}
 
     const items = await knex('items')
       .join('point_items', 'items.id', '=', 'point_items.item_id')
